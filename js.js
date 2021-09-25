@@ -8,5 +8,15 @@ botao.addEventListener("mousemove", function(){
 
 botao.addEventListener("click", function(){
     var texto = document.querySelector("#texto")
-    texto.innerHTML = "Max puta"
+    var input = document.querySelector("#txto")
+    
+    var s = (input.value)
+
+    texto.innerHTML = `${s} Puta`
+    
+
+    
+    
+    
+
 })
